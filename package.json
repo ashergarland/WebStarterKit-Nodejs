@@ -1,0 +1,22 @@
+{
+  "name": "webstartkit-nodejs",
+  "version": "0.0.1",
+  "author": "Asher Garland <asher.garland@gmail.com>",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashermccall/WebStarterKit-Nodejs"
+  },
+  "license": "MIT",
+
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "express-handlebars": "*",
+    "mongodb": "*",
+    "mongoose": "*"
+  }
+}
